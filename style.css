@@ -1,0 +1,330 @@
+/* navbar styling */
+.nav-bar{
+  position: fixed;
+  background:#eeebff;
+}
+
+
+.logo {
+  height: 20px;
+  width: 130px;
+}
+
+
+.menu {
+  color: #7800e8;
+  font-size: 30px;
+
+}
+
+.menu:hover {
+  color: #eeebff;
+}
+
+
+.close {
+  color: #eeebff;
+}
+
+.top-area {
+
+  background: #222222;
+}
+
+.canvas-body {
+  background: #222222;
+
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.link:hover{
+  color:#eeebff;
+}
+
+.link-box {
+  padding: 20px;
+
+}
+
+
+.link-box:hover {
+  color: #7800e8;
+ box-shadow: -5px 5px 10px #191919,
+             5px -5px 10px #292929;
+border-radius: 20px;
+
+}
+
+
+/* home styling */
+
+#home{
+  background:#eeebff;
+}
+
+.logo{
+ height: 20px;
+ width:130px;
+}
+
+.mainproduct{
+  height:300px;
+  width:300px;
+}
+
+.quotes{
+  color:#7800e8;
+  margin-top: 40px;
+  font-size:17px;
+}
+
+.quotes span{
+  color:#222222;
+  font-size:27px;
+}
+
+.description{
+  font-size: 12px;
+  color:#222222;
+}
+
+
+button {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ 
+}
+
+button.learn-more {
+ width: 12rem;
+ height: auto;
+}
+
+button.learn-more .circle {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: relative;
+ display: block;
+ margin: 0;
+ width: 3rem;
+ height: 3rem;
+ background: #7800e8;
+ border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ background:#eeebff;
+}
+
+button.learn-more .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #eeebff;
+ border-right: 0.125rem solid #eeebff;
+ transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding: 0.75rem 0;
+ margin: 0 0 0 1.85rem;
+ color: #222222;
+ font-weight: 700;
+ font-size: 17px;
+ line-height: 1.6;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+button:hover .circle {
+ width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+ background: #eeebff;
+ transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+ color: #eeebff;
+}
+/* products styling */
+
+#products{
+  background:#eeebff;
+}
+
+.heading{
+  font-size: 22px;
+  border-top:2px solid #7800e8;
+  border-left:2px solid #7800e8;
+  border-top-left-radius: 60px;
+  padding-top: 20px;
+  
+}
+
+.prod-name{
+  color: #7800e8;
+}
+
+
+.details span{
+color:#969696;
+}
+
+.price{
+  color: #222222;
+}
+
+.price span{
+  text-decoration: line-through;
+}
+
+/* Order and Other Processes styling*/
+
+
+#order{
+  background: #eeebff;
+}
+
+.order{
+  margin-top: 80px;
+  text-transform: uppercase;
+  color:#7800e8;
+}
+
+.order-img{
+  height:200px;
+  width: 200px;
+}
+
+.des{
+  font-size: 14px;
+  
+}
+
+#inform{
+  font-size: 15px;
+  margin-top:8px;
+}
+
+
+#inform2{
+  font-size:12px;
+  color:#222222;
+}
+
+
+.ship-heading{
+  color:#7800e8;
+  font-size:20px;
+  margin-top: 20px;
+}
+
+.shipping-img{
+  height:200px;
+  width: 200px;
+}
+
+
+
+
+.shipping-des{
+  color:#222222;
+  font-size: 14px;
+}
+
+.rep-heading{
+  color:#7800e8;
+  font-size:20px;
+  margin-top: 20px;
+}
+
+.rep-img{
+  height:200px;
+  width: 200px;
+}
+
+.rep-des{
+  color:#222222;
+  font-size: 14px;
+}
+
+
+/* contact styling */
+#contact{
+  background:#eeebff;
+}
+
+
+.send {
+ color: #eeebff;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 35px;
+ background: #7800e8;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.send:hover {
+ border: 1px solid #eeebff;
+ background: #eeebff;
+ color:#7800e8;
+}
+
+.issue{
+  font-size: 15px;
+  color: #222222;
+}
+
+
+.go{
+  margin-top: 20px;
+  background: #7800e8;
+  border-radius: 50%;
+  color:#eeebff;
+  padding-left: 5px;
+  padding-right:5px;
+  font-size: 25px;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+
