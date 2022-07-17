@@ -4,13 +4,33 @@
 
 **Link**
 
-👇
+👇  
 
-https://denex8poulose.github.io/Encounter/
+[Encounter](https://denex8poulose.github.io/Encounter/)
+
+---
 
 ***Source Code*** was available in my  GitHub Page.
 
+---
+
+framework used - **Bootstrap**    
+
 ![logo](Logo.png)
+
+``` encounter ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
