@@ -6,7 +6,7 @@
 
 👇  
 
-[Encounter](https://denex8poulose.github.io/Encounter/)
+[Encounter](https://denex-a-poulose.github.io/Encounter/)
 
 ---
 
